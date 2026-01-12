@@ -24,18 +24,23 @@ This project was built as part of a hackathon to demonstrate:
 
 ## 🧠 Architecture Overview
 User Query
+
 ↓
 
 FastAPI (/ask endpoint)
+
 ↓
 
 Fetch live news (GNews API)
+
 ↓
 
 Dynamic prompt construction (RAG)
+
 ↓
 
 Ollama (LLaMA 3.2)
+
 ↓
 
 AI-generated response
