@@ -155,10 +155,15 @@ Ollama Not Responding
 ## 🏁 Hackathon Checklist
 
  ✔ Live data ingestion
+ 
  ✔ Dynamic RAG pipeline
+ 
  ✔ Local LLM (no OpenAI)
+ 
  ✔ Dockerized deployment
+ 
  ✔ API-based interface
+ 
  ✔ Shareable demo URL
 
 ---
