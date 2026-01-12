@@ -89,13 +89,15 @@ Expected services:
 * ollama
 * pathway-ragbot
 
-🤖 Pull the Model (First Time Only)
+---
+## 🤖 Pull the Model (First Time Only)
 docker exec -it ollama ollama pull llama3.2
 
 Verify model:
 docker exec -it ollama ollama list
 
-🧪 API Endpoints
+---
+## 🧪 API Endpoints
 Health Check
 GET /health
 
@@ -122,7 +124,8 @@ Response:
   "source": "GNews + Ollama"
 }
 
-🌐 GitHub Codespaces Usage
+---
+## 🌐 GitHub Codespaces Usage
 
 When running in GitHub Codespaces, open Port 8000 and use:
 https://<codespace-name>-8000.app.github.dev/ask?q=Your%20question
@@ -130,7 +133,8 @@ https://<codespace-name>-8000.app.github.dev/ask?q=Your%20question
 Example:
 https://silver-potato-xxxx-8000.app.github.dev/ask?q=What%20is%20trending%20in%20the%20news%20today
 
-🛠 Common Issues & Fixes
+---
+## 🛠 Common Issues & Fixes
 Internal Server Error
 * Check logs:
 docker compose logs ragbot
@@ -147,7 +151,8 @@ Ollama Not Responding
 * Verify correct model name
 * Check /api/generate endpoint
 
-🏁 Hackathon Checklist
+---
+## 🏁 Hackathon Checklist
 
  ✔ Live data ingestion
  ✔ Dynamic RAG pipeline
@@ -156,7 +161,8 @@ Ollama Not Responding
  ✔ API-based interface
  ✔ Shareable demo URL
 
-📌 Future Enhancements
+---
+## 📌 Future Enhancements
 
 * Add vector database
 * Add streaming responses
@@ -164,6 +170,7 @@ Ollama Not Responding
 * Add article citations
 * Add multi-language support
 
+---
 ## 👨‍💻 Authors
 
 This project was built as a **team hackathon project** by:
