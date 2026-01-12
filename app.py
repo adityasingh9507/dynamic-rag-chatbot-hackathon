@@ -10,10 +10,6 @@ OLLAMA_MODEL = os.getenv("OLLAMA_MODEL")
 GNEWS_API_KEY = os.getenv("GNEWS_API_KEY")
 
 app = FastAPI(title="Dynamic News RAG Bot")
-
-# --------------------
-# Health Check
-# --------------------
 @app.get("/health")
 def health():
     return {"ok": True}
