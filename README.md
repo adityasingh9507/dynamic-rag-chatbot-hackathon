@@ -52,12 +52,19 @@ AI-generated response
 
 dynamic-rag-chatbot/
 │
+
 ├── app.py # FastAPI application
+
 ├── Dockerfile # Builds the ragbot container
+
 ├── docker-compose.yml # Runs Ollama + ragbot
+
 ├── requirements.txt # Python dependencies
+
 ├── .env # Environment variables (ignored by Git)
+
 ├── .gitignore # Git ignore rules
+
 └── README.md # Project documentation
 
 ---
