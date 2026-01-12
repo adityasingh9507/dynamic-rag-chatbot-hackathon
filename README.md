@@ -135,18 +135,18 @@ https://silver-potato-xxxx-8000.app.github.dev/ask?q=What%20is%20trending%20in%2
 
 ---
 ## 🛠 Common Issues & Fixes
-# Internal Server Error
+### Internal Server Error
 * Check logs:
 docker compose logs ragbot
 * Verify GNews API key
 * Ensure Ollama is running
 * Ensure model is pulled
 
-# GNews API Errors
+### GNews API Errors
 * Ensure query is URL-encoded
 * Free plan has rate limits
 
-# Ollama Not Responding
+### Ollama Not Responding
 * Confirm container is running
 * Verify correct model name
 * Check /api/generate endpoint
