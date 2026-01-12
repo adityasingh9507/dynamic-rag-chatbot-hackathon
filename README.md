@@ -24,8 +24,8 @@ This project was built as part of a hackathon to demonstrate:
 
 ## 🧠 Architecture Overview
 User Query
-↓
 
+↓
 FastAPI (/ask endpoint)
 
 ↓
