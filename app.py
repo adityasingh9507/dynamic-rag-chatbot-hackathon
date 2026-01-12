@@ -14,9 +14,7 @@ app = FastAPI(title="Dynamic News RAG Bot")
 def health():
     return {"ok": True}
 
-# --------------------
-# Fetch News from GNews
-# --------------------
+
 def fetch_news():
     url = "https://gnews.io/api/v4/top-headlines"
     params = {
