@@ -108,6 +108,7 @@ docker exec -it ollama ollama list
 
 ---
 ## 🧪 API Endpoints
+
 Health Check
 GET /health
 
@@ -118,6 +119,7 @@ Response:
 {"ok": true}
 
 Ask a Question
+
 GET /ask?q=YOUR_QUESTION
 
 Example (curl):
