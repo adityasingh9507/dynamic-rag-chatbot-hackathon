@@ -77,7 +77,8 @@ dynamic-rag-chatbot/
 3. Copy your API key
 4. Paste it into the .env file
 
-🐳 Docker Setup
+---
+## 🐳 Docker Setup
 Build and start the application
 docker compose up -d --build
 
