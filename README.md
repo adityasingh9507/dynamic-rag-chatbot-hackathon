@@ -51,6 +51,7 @@ AI-generated response
 ## 📁 Project Structure
 
 dynamic-rag-chatbot/
+
 │
 
 ├── app.py # FastAPI application
