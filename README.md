@@ -1,3 +1,4 @@
+Team EnqTripo
 # 📰 Dynamic RAG News Chatbot (Ollama + GNews)
 
 A **Dynamic Retrieval-Augmented Generation (RAG) chatbot** that answers user questions using **live news data** from the **GNews API** and generates responses using a **local LLM via Ollama**.  
